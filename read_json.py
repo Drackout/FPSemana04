@@ -9,7 +9,7 @@ try:
         data = json.load(file)
 
     print(data)
-except FileNotFoundError:
+except:
     print("Ocorreu um erro!")
 finally:
     print("Processo concluído!")
